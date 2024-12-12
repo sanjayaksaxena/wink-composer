@@ -12,9 +12,9 @@ We are excited to begin our Generative AI journey, introducing a robust framewor
 
 ## What is wink-composer?
 
-**WinkComposer** is an **upcoming open-source JavaScript analytics platform** that transforms streaming data into **real-time actionable insights**. It enables the creation of domain-specific ontologies to provide precise context for data streams. Using **statistical and machine learning algorithms**, it rapidly detects patterns, identifies anomalies, and intelligently aggregates data. A **knowledge graph** links business objects, patterns, and events, creating a unified network—ideal for scenarios like monitoring manufacturing in an IoT ecosystem.
+**WinkComposer** is an **upcoming open-source JavaScript analytics platform** that transforms streaming data into real-time actionable insights. It enables the creation of domain-specific ontologies to provide precise context for data streams. Using statistical and machine learning algorithms, it rapidly detects patterns, identifies anomalies, and intelligently aggregates data. A knowledge graph links business objects, patterns, and events, creating a unified network—ideal for scenarios like monitoring manufacturing in an IoT ecosystem.
 
-With its **ontology-driven**, **LLM-powered reasoning framework**, WinkComposer performs root cause analysis and delivers actionable recommendations. This supports near real-time insights, enabling faster, smarter decisions. Additionally, it helps support teams resolve issues quickly and accelerates onboarding with contextual learning for new team members.
+WinkComposer leverages an ontology-driven, LLM-powered reasoning framework to analyze events, patterns, and data, uncover root causes, and deliver actionable recommendations. This supports near real-time insights, enabling faster, smarter decisions. Additionally, it helps support teams resolve issues quickly and accelerates onboarding with contextual learning for new team members.
 	
 
 ### Our Focus
