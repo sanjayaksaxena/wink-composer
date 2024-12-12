@@ -1,11 +1,16 @@
 {
     "name": "wink-composer",
     "version": "0.0.0",
-    "description": "Compose LLM applications easily ♫",
+    "description": "Actionable Insights, Simplified",
     "keywords": [
         "agents",
-        "rag",
+        "analytics",
         "llm",
+        "machine learning",
+        "ontology",
+        "rag",
+        "statistics",
+        "streaming",
         "wink-composer",
         "winkjs",
         "wink"
