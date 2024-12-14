@@ -8,7 +8,7 @@
 [<img align="right" src="https://decisively.github.io/wink-logos/logo-title.png" width="100px" >](http://winkjs.org/)
 
 
-We are excited to begin our Generative AI journey, introducing a robust framework that delivers real-time actionable insights from streaming data through contextual ontologies and LLM-driven reasoning. Keep an eye out as WinkComposer takes shape over the coming weeks.
+We are excited to begin our Generative AI journey, introducing a robust framework that delivers real-time actionable insights from streaming data through contextual ontologies and LLM-driven reasoning. Keep an eye out as winkComposer unfolds over time.
 
 ## What is wink-composer?
 
@@ -31,6 +31,6 @@ We’re in the early stages of setting up the project — discuss your ideas at 
 
 ## Copyright & License
 
-**Wink Composer** is copyright 2024 [GRAYPE Systems Private Limited](https://graype.in/).
+**WinkComposer** is copyright 2024 [GRAYPE Systems Private Limited](https://graype.in/).
 
 It is licensed under the terms of the MIT License.
