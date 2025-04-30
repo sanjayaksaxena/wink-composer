@@ -50,10 +50,12 @@ WinkComposer leverages an ontology-driven, LLM-powered reasoning framework to an
 - Drag‑and‑drop UI planned.
 
 
-### Modular Node and Task System
-- Define business logic via **Plugins**.
+### Plugin based Node Architecture
+- Well-defined pattern for new plugin development
 
-- Rich library of built‑in tasks.
+- Rich starter pack such as comprehensive streaming statistics, threshold/anomaly detectors, count-min sktech and MQTT/Kafka source connectors to Neo4j/Parquet sinks.
+
+- Numerical stability
     
 
 ### Ontology, Knowledge Graph & Digital Twin
