@@ -1,13 +1,16 @@
 
 ![logo](_media/wink-logo.png)
 
-# wink-composer <small>0.5</small>
+# wink-composer <small>0.1</small>
 
-> Compose LLM applications easily ♫
+> Streaming Data. Orchestrated. Explained. ♫
 
-- ✨ Declarative, natural language like API
-- 🔖 Advanced Prompt Templates
-- ⚡️ Versatility
+- 📊 Real-time Streaming Analytics
+- 🕸️ Knowledge Graph Digital Twin
+- 🔌 Modular Plugin Architecture
+- 🔄 Reactive Processing Graph
+- 🧠 LLM-powered Reasoning
+- 🚀 Low-Code Development
 
 [GitHub](https://github.com/winkjs/wink-composer)
 [Get Started](#docsify)

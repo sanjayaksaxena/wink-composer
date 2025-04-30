@@ -1,14 +1,13 @@
 {
     "name": "wink-composer",
     "version": "0.0.0",
-    "description": "Actionable Insights, Simplified",
+    "description": "Streaming Data. Orchestrated. Explained.",
     "keywords": [
         "agents",
         "analytics",
         "llm",
         "machine learning",
         "ontology",
-        "rag",
         "statistics",
         "streaming",
         "wink-composer",
