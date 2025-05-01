@@ -4,73 +4,69 @@
 
 ## Low-Code, AI-Native Streaming Intelligence
 
-
 [<img align="right" src="https://decisively.github.io/wink-logos/logo-title.png" width="100px" >](http://winkjs.org/)
 
+WinkComposer is an **upcoming** Open Source, high-performance JavaScript framework built on Node.js for real-time streaming analytics. It transforms continuous data streams into actionable insights using a reactive processing graph that intelligently manages workloads.
 
-WinkComposer is an **upcoming Open Source** low‑code, AI‑native streaming‑analytics framework on Node.js. It turns continuous data streams into actionable insights via a reactive processing graph, domain ontologies, and an LLM‑powered reasoning layer that delivers root‑cause analysis and recommendations.
+This graph prioritizes control and data messages, manages backpressure effectively, and uses adaptive yielding to stay responsive under varying loads. It ensures that both asynchronous and synchronous operations are executed efficiently without overwhelming the system.
 
-## What is wink-composer?
+Each graph node is lightweight and modular, designed to execute streaming algorithms in real time. Nodes support both CPU-bound operations—such as filtering, transformation, and specialized algorithms for aggregation, statistical analysis, anomaly detection, and more—and I/O-bound tasks like database queries or LLM-based inference. This versatility makes WinkComposer suitable for domains such as IoT, telematics, smart infrastructure, finance, and healthcare.
 
-WinkComposer is a high‑performance JavaScript framework for real‑time streaming analytics. It intelligently manages streaming work items, prioritising control and data messages while maintaining back‑pressure and adaptive yielding for maximum responsiveness.
+WinkComposer goes beyond basic analytics by integrating statistical methods and machine learning algorithms directly into its streaming engine. A built-in knowledge graph unifies business entities, patterns, and events. By persisting it in graph databases like Neo4j or ArangoDB, it forms a digital twin of your domain—enabling semantically rich queries and deeper contextual insights.
 
-Each graph node is lightweight and modular, designed to efficiently execute streaming-analytics algorithms in real time. The framework supports both synchronous CPU‑bound operations and asynchronous I/O‑bound processes, making it versatile for IoT, smart infrastructure, telematics, finance, and more. Statistical methods and machine‑learning algorithms are integrated directly into the engine and enriched by a knowledge graph that unifies business objects, patterns, and events. By persisting in graph databases such as Neo4j or ArangoDB, the knowledge graph forms a digital twin of your domain, empowering richer queries and delivering deeper insights.
-
-WinkComposer leverages an ontology-driven, LLM-powered reasoning framework to analyze events, patterns, and data, uncover root causes, and deliver actionable recommendations. This supports near real-time insights, enabling faster, smarter decisions. Additionally, it helps support teams resolve issues quickly and accelerates onboarding with contextual learning for new team members.
-	
-
-### Our Focus
-1. **Ease of Use**: Focus on your application logic without worrying about underlying complexities.
-
-1. **Open Source/Weight LLMs**: Prioritizing smaller Open Source and efficient LLMs to empower developers.
-
-1. **Extensibility**: Modular, loosely coupled components built for contribution.
-
-1. **Safety & Security**: Responsible AI and OpenSSF compliance.
+At its core, WinkComposer includes an ontology-driven, LLM-powered reasoning layer that analyzes event streams to uncover patterns, identify root causes, and generate real-time, actionable recommendations. This empowers teams to make faster decisions, resolve issues efficiently, and onboard new members more effectively through embedded contextual knowledge.
 
 ## Key Features
 
 ### Reactive Graph Execution
-- **Adaptive Yield Threshold** keeps the event loop smooth.
+- Adaptive Yield Threshold keeps the event loop responsive.
 
-- **Back‑pressure Management** prevents overload during peak streams.
+- Backpressure Management handles peak loads without memory overflow.
 
-- **Priority Scheduling** (control > data > async messages).
+- Priority Scheduling ensures control > data > async messages.
 
-- **Monitoring Hooks & Memory Tracking** built in.
+- Built-in Monitoring & Memory Tracking for observability.
 
-- **Node-Level Error Containment**: Node errors are captured and handled locally, ensuring the graph continues running smoothly.
+- Node-Level Error Isolation prevents local failures from crashing the graph.
 
-- **Periodic Graph Snapshots**: Save graph state periodically to aid fast recovery.
- 
+- Periodic Snapshots enable quick recovery from faults.
 
-### Low‑Code Graph DSL
-- Declarative JSON/YAML definition of processing pipelines.
+### Low-Code Graph DSL
+- Define pipelines in a declarative manner.
 
-- Drag‑and‑drop UI planned.
+- Drag-and-drop UI is already planned.
 
+### Plugin-Based Node Architecture
+- Simple plugin pattern for custom node development.
 
-### Plugin based Node Architecture
-- Well-defined pattern for new plugin development
+- Includes rich starter pack: statistical summaries, anomaly detectors, Count-Min Sketch, MQTT/Kafka sources, and Neo4j/Parquet sinks.
 
-- Rich starter pack such as comprehensive streaming statistics, threshold/anomaly detectors, count-min sktech and MQTT/Kafka source connectors to Neo4j/Parquet sinks.
-
-- Numerical stability
-    
+- Emphasis on numerical stability.
 
 ### Ontology, Knowledge Graph & Digital Twin
-- Domain‑specific ontologies captured in a graph DB (Neo4j, ArangoDB).
+- Ontologies modeled in graph DBs like Neo4j or ArangoDB.
 
-- Patterns, aggregates, and events stored as first‑class nodes/edges.
+- Patterns, aggregates, and events as first-class graph elements.
+- Query the digital twin for root cause, impact, and what-if analysis.
+- LLM-assisted reasoning explains anomalies and suggests next steps.
 
-- Query the digital twin for impact analysis, what‑if simulations, and contextual recommendations.
+## Our Focus
 
-- **LLM‑assisted reasoning** layer explains anomalies and surfaces root causes.
+1. Ease of Use – A declarative design simplifies development and enables rapid iteration.
 
-## Contributions are welcome
-We are in early development — join the conversation in [GitHub Discussions](https://github.com/winkjs/wink-composer/discussions) or email us at wink@graype.in.
+1. Extensibility – Modular, loosely coupled components for easy customization and contributions.
 
-Together, let’s shape the future of real‑time streaming analytics!
+1. Open Source & Lightweight LLMs – Prioritizing efficient, accessible models for developers.
+
+1. Safety & Security – Aligned with responsible AI principles and OpenSSF best practices.
+
+
+## Contributions Welcome
+
+WinkComposer is in active early development — we invite you to [join the conversation on GitHub Discussions](https://github.com/winkjs/wink-composer/discussions) or reach out via email at wink@graype.in.
+
+Let’s shape the future of real-time streaming analytics together!
+
 
 ## About winkJS
 [WinkJS](https://github.com/winkjs) is a family of open source packages for **Natural Language Processing**, **Machine Learning**, and **Statistical Analysis** in Javascript. The code is **thoroughly documented** for easy human comprehension and has a **test coverage of ~100%** for reliability to build production grade solutions.

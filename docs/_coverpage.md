@@ -1,9 +1,9 @@
 
 ![logo](_media/wink-logo.png)
 
-# wink-composer <small>0.1</small>
+# wink-composer <small>♫</small>
 
-> Streaming Data. Orchestrated. Explained. ♫
+> Low-Code, AI-Native Streaming Intelligence
 
 - 📊 Real-time Streaming Analytics
 - 🕸️ Knowledge Graph Digital Twin
