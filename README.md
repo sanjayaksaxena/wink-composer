@@ -6,19 +6,19 @@
 
 [<img align="right" src="https://decisively.github.io/wink-logos/logo-title.png" width="100px" >](http://winkjs.org/)
 
-WinkComposer is an **upcoming** Open Source, high-performance JavaScript framework built on Node.js for real-time streaming analytics. It transforms continuous data streams into actionable insights using a reactive processing graph that intelligently manages workloads.
+WinkComposer is an **upcoming** Open Source, high-performance JavaScript framework built on Node.js for real-time streaming analytics. It transforms continuous data streams into actionable insights. It does so by running lightweight processing **Nodes** inside a responsive, back‑pressure‑aware **Flow**.  The engine follows reactive‑streams principles while offering a familiar flow‑based user experience.
 
-This graph prioritizes control and data messages, manages backpressure effectively, and uses adaptive yielding to stay responsive under varying loads. It ensures that both asynchronous and synchronous operations are executed efficiently without overwhelming the system.
+It prioritizes control over data messages, manages backpressure effectively, and uses adaptive yielding to stay responsive under varying loads. It ensures that both asynchronous and synchronous operations are executed efficiently without overwhelming the system.
 
-Each graph node is lightweight and modular, designed to execute streaming algorithms in real time. Nodes support both CPU-bound operations—such as filtering, transformation, and specialized algorithms for aggregation, statistical analysis, anomaly detection, and more—and I/O-bound tasks like database queries or LLM-based inference. This versatility makes WinkComposer suitable for domains such as IoT, telematics, smart infrastructure, finance, and healthcare.
+Each node is lightweight and modular, designed to execute streaming algorithms in real time. Nodes support both CPU-bound operations—such as filtering, transformation, and specialized algorithms for aggregation, statistical analysis, anomaly detection, and more—and I/O-bound tasks like database queries or LLM-based inference. This versatility makes WinkComposer suitable for domains such as IoT, telematics, smart infrastructure, finance, and healthcare.
 
-WinkComposer goes beyond basic analytics by integrating statistical methods and machine learning algorithms directly into its streaming engine. A built-in knowledge graph unifies business entities, patterns, and events. By persisting it in graph databases like Neo4j or ArangoDB, it forms a digital twin of your domain—enabling semantically rich queries and deeper contextual insights.
+WinkComposer goes beyond basic analytics by integrating statistical methods and machine learning algorithms directly into its streaming engine. A knowledge graph unifies business entities, patterns, and events. By persisting it in graph databases like Neo4j or ArangoDB, it forms a digital twin of your domain—enabling semantically rich queries and deeper contextual insights.
 
 At its core, WinkComposer includes an ontology-driven, LLM-powered reasoning layer that analyzes event streams to uncover patterns, identify root causes, and generate real-time, actionable recommendations. This empowers teams to make faster decisions, resolve issues efficiently, and onboard new members more effectively through embedded contextual knowledge.
 
 ## Key Features
 
-### Reactive Graph Execution
+### Reactive Flow Execution
 - Adaptive Yield Threshold keeps the event loop responsive.
 
 - Backpressure Management handles peak loads without memory overflow.
@@ -27,17 +27,17 @@ At its core, WinkComposer includes an ontology-driven, LLM-powered reasoning lay
 
 - Built-in Monitoring & Memory Tracking for observability.
 
-- Node-Level Error Isolation prevents local failures from crashing the graph.
+- Node-Level Error Isolation prevents local failures from crashing the flow.
 
 - Periodic Snapshots enable quick recovery from faults.
 
-### Low-Code Graph DSL
+### Low-Code Workflow DSL
 - Define pipelines in a declarative manner.
 
 - Drag-and-drop UI is already planned.
 
-### Plugin-Based Node Architecture
-- Simple plugin pattern for custom node development.
+### Extensible Node Architecture
+- Simple & uniform pattern for custom/new node development.
 
 - Includes rich starter pack: statistical summaries, anomaly detectors, Count-Min Sketch, MQTT/Kafka sources, and Neo4j/Parquet sinks.
 
@@ -47,8 +47,20 @@ At its core, WinkComposer includes an ontology-driven, LLM-powered reasoning lay
 - Ontologies modeled in graph DBs like Neo4j or ArangoDB.
 
 - Patterns, aggregates, and events as first-class graph elements.
+
 - Query the digital twin for root cause, impact, and what-if analysis.
+
 - LLM-assisted reasoning explains anomalies and suggests next steps.
+
+## Core Concepts
+| Term                | What it means                             |
+| ------------------- | ----------------------------------------- |
+| **Flow**            | Runnable graph of Nodes and Edges—the artefact you deploy         |
+| **Node**            | Modular operator that transforms, enriches, or routes Messages    |
+| **Message**         | Atomic data packet that travels through a Flow                    |
+| **Edge**            | Interconnects nodes for message flow                 |
+| **Smart Scheduler** | Runtime that enforces priority, adaptive yield & back‑pressure    |
+| **Workflow DSL**    | YAML/JSON syntax to declare Flows (visual builder in the roadmap) |
 
 ## Our Focus
 
